@@ -1,0 +1,16 @@
+*.dll
+*.exe
+*_Data/
+buildID*.txt
+CSteamworks.*
+GameData/AsteroidDay/
+GameData/Squad/
+KSP.log
+PartDatabase.cfg
+Physics.cfg
+readme.txt
+saves/
+Screenshots/
+settings.cfg
+Ships/
+thumbs/
