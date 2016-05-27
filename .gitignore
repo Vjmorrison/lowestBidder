@@ -1,16 +1,30 @@
+.DS_Store
+*.app
 *.dll
 *.exe
+*.log
 *_Data/
 buildID*.txt
 CSteamworks.*
-GameData/AsteroidDay/
-GameData/Squad/
-KSP.log
 PartDatabase.cfg
 Physics.cfg
 readme.txt
-saves/
 Screenshots/
 settings.cfg
 Ships/
 thumbs/
+
+# Ignore everything in GameData except the LowestBidder folder
+GameData*
+!GameData/LowestBidder
+!GameData/LowestBidder/**
+
+# Ignore everything in saves except vehicle files and persistent save game in LowestBidder folder
+saves/*
+!saves/LowestBidder
+!saves/LowestBidder/Ships
+!saves/LowestBidder/**.craft
+saves/LowestBidder/Backup
+saves/LowestBidder/Subassemblies
+saves/LowestBidder/**/Auto-Saved\ Ship.craft
+saves/LowestBidder/quicksave.sfs
